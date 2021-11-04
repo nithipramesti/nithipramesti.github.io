@@ -115,7 +115,7 @@ body header section.hero .hero__text {
 body header section.hero .hero__text .text__intro {
   font-size: 32px;
   font-weight: 700;
-  color: #333333;
+  color: #444444;
   margin-bottom: 0;
 }
 
@@ -129,16 +129,16 @@ body header section.hero .hero__text .text__title {
 }
 
 body header section.hero .hero__text .text__details {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.4;
   margin-top: 40px;
   margin-bottom: 65px;
+  color: #444444;
 }
 
 body header section.hero .hero__text .btn__cta {
   font-size: 18px;
   font-weight: 500;
-  letter-spacing: 1px;
   padding: 18px 36px;
   background-color: #000000;
   border-radius: 12px;
@@ -197,7 +197,7 @@ body main section.projects .project .project__info {
 }
 
 body main section.projects .project .project__info .project__title {
-  font-size: 25px;
+  font-size: 24px;
   margin-bottom: 15px;
 }
 
@@ -215,16 +215,16 @@ body main section.projects .project .project__info .project__techs {
 }
 
 body main section.projects .project .project__info .project__techs .tech {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #6d6d6d;
+  color: #585858;
   display: inline;
   padding: 4px 10px;
-  background-color: rgba(255, 255, 255, 0.43);
-  border-radius: 7px;
+  background-color: rgba(209, 209, 209, 0.4);
+  border-radius: 4px;
 }
 
 body main section.projects .project .project__info .project__techs .tech ~ .tech {
@@ -234,6 +234,7 @@ body main section.projects .project .project__info .project__techs .tech ~ .tech
 body main section.projects .project .project__info .project__details {
   font-size: 16px;
   line-height: 1.6;
+  color: #333333;
 }
 
 body main section.projects .project .project__info .project__links {
@@ -280,7 +281,7 @@ body main section.resume h3 {
 body main section.resume h4 {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   margin-top: 0;
 }
 
@@ -298,7 +299,7 @@ body main section.resume .resume__content .resume__section {
 }
 
 body main section.resume .resume__content .resume__section .resume__paragraph {
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 body main section.resume .resume__content .resume__section .resume__paragraph .resume__main-link {
@@ -326,8 +327,8 @@ body main section.resume .resume__content .resume__section .resume__paragraph .r
 }
 
 body main section.resume .resume__content .resume__section .resume__paragraph .resume__text-mute {
-  margin-top: 10px;
-  color: #4b4b4b;
+  margin-top: 5px;
+  color: #555555;
 }
 
 body main section.resume .resume__content .resume__skills .resume__skills__content {
