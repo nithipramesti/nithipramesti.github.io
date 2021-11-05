@@ -61,7 +61,7 @@ body {
 
         li {
           list-style: none;
-          font-size: 15px;
+          font-size: 16px;
           font-weight: 500;
 
           a {
@@ -79,7 +79,7 @@ body {
         }
 
         li ~ li {
-          margin-left: 60px;
+          margin-left: 50px;
         }
       }
     }
@@ -90,7 +90,7 @@ body {
       margin-top: 50px;
 
       .hero__text {
-        width: 520px;
+        width: 500px;
 
         .text__intro {
           font-size: 32px;
@@ -100,12 +100,26 @@ body {
         }
 
         .text__title {
-          font-size: 80px;
+          font-size: 78px;
           line-height: 1.1;
           font-weight: 700;
-          letter-spacing: -2px;
+          letter-spacing: -1px;
           margin-top: 30px;
           margin-bottom: 0;
+
+          span {
+            position: relative;
+          }
+
+          span::before {
+            position: absolute;
+            bottom: 10px;
+            content: "";
+            width: 100%;
+            height: 20px;
+            z-index: -1;
+            background-color: #ffecc7;
+          }
         }
 
         .text__details {
@@ -119,9 +133,10 @@ body {
         .btn__cta {
           font-size: 18px;
           font-weight: 500;
-          padding: 18px 36px;
+          letter-spacing: 1px;
+          padding: 20px 45px;
           background-color: #000000;
-          border-radius: 12px;
+          border-radius: 30px;
           color: #ffffff;
           text-decoration: none;
           transition: background 0.3s ease;
@@ -133,12 +148,13 @@ body {
       }
 
       .hero__img {
-        background-image: url("../img/00-bw-bg.jpg");
+        background-image: url("../img/img-profile.jpg");
         background-size: cover;
         background-position: center;
         border-radius: 50%;
         height: 490px;
         width: 490px;
+        min-width: 490px;
         margin-top: 20px;
       }
     }
@@ -154,6 +170,18 @@ body {
       letter-spacing: -1px;
       margin-bottom: 70px;
       padding-top: 30px;
+      display: inline-block;
+      position: relative;
+    }
+
+    .section__title::before {
+      position: absolute;
+      bottom: 7px;
+      content: "";
+      width: 100%;
+      height: 12px;
+      z-index: -1;
+      background-color: #ffecc7;
     }
 
     section.projects {
@@ -329,6 +357,10 @@ body {
       width: 600px;
       margin: 200px auto 200px auto;
 
+      .section__title {
+        margin-bottom: 40px;
+      }
+
       .contact__text {
         font-size: 24px;
         line-height: 1.5;
@@ -370,6 +402,7 @@ body {
     grid-column: 1 / span 12;
     text-align: center;
     margin-bottom: 30px;
+    color: #555555;
 
     a {
       color: inherit;
