@@ -244,6 +244,11 @@ body {
             font-size: 16px;
             line-height: 1.6;
             color: #333333;
+
+            a {
+              color: inherit;
+              font-weight: 500;
+            }
           }
 
           .project__links {
@@ -274,6 +279,14 @@ body {
 
       .project__01 {
         background-color: #e5edfa;
+      }
+
+      .project__02 {
+        background-color: #f0f0f0;
+      }
+
+      .project ~ .project {
+        margin-top: 60px;
       }
     }
 

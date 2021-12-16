@@ -270,11 +270,6 @@ body main section.projects .project .project__info .project__details {
   color: #333333;
 }
 
-body main section.projects .project .project__info .project__details a {
-  color: inherit;
-  font-weight: 500;
-}
-
 body main section.projects .project .project__info .project__links {
   margin-top: 30px;
 }
@@ -302,15 +297,11 @@ body main section.projects .project .project__info .project__links a:hover img {
 }
 
 body main section.projects .project__01 {
-  background-color: #e5edfa;
+  background-color: red;
 }
 
 body main section.projects .project__02 {
-  background-color: #f0f0f0;
-}
-
-body main section.projects .project ~ .project {
-  margin-top: 60px;
+  background-color: #333333;
 }
 
 body main section.resume {
