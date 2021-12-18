@@ -301,11 +301,15 @@ body main section.projects .project .project__info .project__links a:hover img {
 }
 
 body main section.projects .project__01 {
-  background-color: #e5edfa;
+  background-color: #fef8ec;
 }
 
 body main section.projects .project__02 {
   background-color: #f0f0f0;
+}
+
+body main section.projects .project__03 {
+  background-color: #e5edfa;
 }
 
 body main section.projects .project ~ .project {
