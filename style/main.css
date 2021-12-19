@@ -148,8 +148,8 @@ body header section.hero .hero__text .text__title span::before {
 }
 
 body header section.hero .hero__text .text__details {
-  font-size: 20px;
-  line-height: 1.4;
+  font-size: 18px;
+  line-height: 1.6;
   margin-top: 40px;
   margin-bottom: 65px;
   color: #444444;
