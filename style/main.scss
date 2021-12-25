@@ -169,7 +169,7 @@ body {
       section.hero {
         .hero__text {
           .text__intro {
-            font-size: 28px;
+            font-size: 1.75rem;
           }
 
           .text__title {
@@ -257,6 +257,8 @@ body {
 
           .project__techs {
             margin: 10px 0 10px 0;
+            display: flex;
+            flex-wrap: wrap;
 
             .tech {
               font-size: 0.6rem;
@@ -265,15 +267,11 @@ body {
               text-transform: uppercase;
               letter-spacing: 1px;
               color: #585858;
-              display: inline;
               padding: 4px 10px;
               background-color: rgba($color: #d1d1d1, $alpha: 0.4);
               border-radius: 4px;
-              margin-bottom: 12px;
-            }
-
-            .tech ~ .tech {
-              margin-left: 3px;
+              margin-right: 4px;
+              margin-bottom: 4px;
             }
           }
 
@@ -592,6 +590,18 @@ body {
       nav {
         .nav__links {
           display: none;
+        }
+      }
+
+      section.hero {
+        .hero__text {
+          .text__intro {
+            font-size: 1.5rem;
+          }
+
+          .text__title {
+            font-size: 3.5rem;
+          }
         }
       }
     }

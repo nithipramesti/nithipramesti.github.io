@@ -186,7 +186,7 @@ body header section.hero .hero__img {
 
 @media (max-width: 1300px) {
   body header section.hero .hero__text .text__intro {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   body header section.hero .hero__text .text__title {
     font-size: 3.85rem;
@@ -271,6 +271,11 @@ body main section.projects .project .project__info .project__title a:hover {
 
 body main section.projects .project .project__info .project__techs {
   margin: 10px 0 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 body main section.projects .project .project__info .project__techs .tech {
@@ -280,15 +285,11 @@ body main section.projects .project .project__info .project__techs .tech {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #585858;
-  display: inline;
   padding: 4px 10px;
   background-color: rgba(209, 209, 209, 0.4);
   border-radius: 4px;
-  margin-bottom: 12px;
-}
-
-body main section.projects .project .project__info .project__techs .tech ~ .tech {
-  margin-left: 3px;
+  margin-right: 4px;
+  margin-bottom: 4px;
 }
 
 body main section.projects .project .project__info .project__details {
@@ -567,6 +568,12 @@ body footer a {
   }
   body header nav .nav__links {
     display: none;
+  }
+  body header section.hero .hero__text .text__intro {
+    font-size: 1.5rem;
+  }
+  body header section.hero .hero__text .text__title {
+    font-size: 3.5rem;
   }
   body main section.resume .resume__content .resume__skills .resume__skills__content {
     display: block;
