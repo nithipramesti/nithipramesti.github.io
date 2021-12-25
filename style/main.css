@@ -515,6 +515,7 @@ body main section.contact .contact__links a ~ a {
   }
   body main section.projects .project .project__info {
     padding-right: 0;
+    margin-right: 0;
   }
   body main section.projects .project__01 .project__img {
     background-color: #e2edfd;
