@@ -349,14 +349,14 @@ body main section.resume {
 }
 
 body main section.resume h3 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 40px;
 }
 
 body main section.resume h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 12px;
   margin-top: 0;
@@ -428,6 +428,10 @@ body main section.contact {
   text-align: center;
   width: 600px;
   margin: 200px auto;
+}
+
+body main section.contact h2 {
+  font-size: 2.5rem;
 }
 
 body main section.contact .section__title {
@@ -556,7 +560,7 @@ body footer a {
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1032px) {
   body {
     width: 600px;
   }
@@ -575,6 +579,15 @@ body footer a {
   body header section.hero .hero__text .text__title {
     font-size: 3.5rem;
   }
+  body main .section__title {
+    font-size: 2.5rem;
+  }
+  body main section.resume h3 {
+    font-size: 1.8rem;
+  }
+  body main section.resume h4 {
+    font-size: 1.2rem;
+  }
   body main section.resume .resume__content .resume__skills .resume__skills__content {
     display: block;
   }
@@ -583,6 +596,9 @@ body footer a {
   }
   body main section.contact {
     width: 100%;
+  }
+  body main section.contact h2 {
+    font-size: 2.3rem;
   }
 }
 

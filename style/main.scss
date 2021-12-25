@@ -332,14 +332,14 @@ body {
       margin-top: 200px;
 
       h3 {
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 40px;
       }
 
       h4 {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 700;
         margin-bottom: 12px;
         margin-top: 0;
@@ -412,6 +412,10 @@ body {
       text-align: center;
       width: 600px;
       margin: 200px auto;
+
+      h2 {
+        font-size: 2.5rem;
+      }
 
       .section__title {
         margin-bottom: 40px;
@@ -576,7 +580,7 @@ body {
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1032px) {
   body {
     width: 600px;
   }
@@ -607,7 +611,19 @@ body {
     }
 
     main {
+      .section__title {
+        font-size: 2.5rem;
+      }
+
       section.resume {
+        h3 {
+          font-size: 1.8rem;
+        }
+
+        h4 {
+          font-size: 1.2rem;
+        }
+
         .resume__content {
           .resume__skills {
             .resume__skills__content {
@@ -622,6 +638,10 @@ body {
       }
       section.contact {
         width: 100%;
+
+        h2 {
+          font-size: 2.3rem;
+        }
       }
     }
   }
